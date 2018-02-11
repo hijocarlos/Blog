@@ -4,7 +4,7 @@ email:       carlosfilho92@gmail.com
 author:      Carlos Filho
 description: "This is my blog about generalities of the digital and marketing worlds"
 baseurl:     ""
-url:         "hijocarlos.github.io"
+url:         ""
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
