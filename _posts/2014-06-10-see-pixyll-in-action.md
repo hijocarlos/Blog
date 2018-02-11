@@ -1,135 +1,147 @@
 ---
-layout:     post
-title:      Pixyll in Action
-date:       2014-06-10 12:31:19
-summary:    See what the different elements looks like. Your markdown has never looked better. I promise.
+layout: post
+title: 'A Pocket Guide to Google Search Operators '
+date: {}
+summary: >-
+  See what the different elements looks like. Your markdown has never looked
+  better. I promise.
 categories: jekyll pixyll
+published: true
 ---
 
-There is a significant amount of subtle, yet precisely calibrated, styling to ensure
-that your content is emphasized while still looking aesthetically pleasing.
+Google Search Operators are part of this huge environment of web tools available to us. They are used for a multitude of things on Google, from **SEO** to **prospecting** - and that's why they are so unique.
+  
 
-All links are easy to [locate and discern](#), yet don't detract from the [harmony
-of a paragraph](#). The _same_ goes for italics and __bold__ elements. Even the the strikeout
-works if <del>for some reason you need to update your post</del>. For consistency's sake,
-<ins>The same goes for insertions</ins>, of course.
+The central role of search operators is to narrow down the result set. Using them, you will be able to find more refined results on SERPS, which allows you to go straight to the point faster. Usually, they are formatted using symbols (like '+', or '-'), words, or combinations of both. You can also use more than one operator/command on a search (that will enrich your results a lot).    
 
-### Code, with syntax highlighting
+![google search operators](https://image.ibb.co/bup1jR/search_operators.png)
 
-Here's an example of some ruby code with line anchors.
+I gathered a few (I think there's more) commands and operators to facilitate my job remembering them and decided to share here. So, let's dive in: 
 
-{% highlight ruby lineanchors %}
-# The most awesome of classes
-class Awesome < ActiveRecord::Base
-  include EvenMoreAwesome
+## Advanced Google Search Operators 🦅 
 
-  validates_presence_of :something
-  validates :email, email_format: true
+### Allintext:keywords
+This operator will return with results that have all your keywords in their <body> tag 
 
-  def initialize(email, name = nil)
-    self.email = email
-    self.name = name
-    self.favorite_number = 12
-    puts 'created awesomeness'
-  end
+Example: _allintext: best web tips_
 
-  def email_format
-    email =~ /\S+@\S+\.\S+/
-  end
-end
-{% endhighlight %}
+### Allintitle:keywords
+This operator will return all results with the terms you choose in their title tags. 
 
-Here's some CSS:
+Example: _allintitle: organic growth strategies_ (the results will have "organic," "growth" and "strategies" in the title) 
 
-{% highlight css %}
-.foobar {
-  /* Named colors rule */
-  color: tomato;
-}
-{% endhighlight %}
+### Allinurl:keywords
+The same as in allintitle: it will display all results with the keywords in the URL 
 
-Here's some JavaScript:
+Example: _allinurl:google search operators_
 
-{% highlight js %}
-var isPresent = require('is-present')
+### Cache:
+You can use this command when you want to find the latest cache of a specified page.
 
-module.exports = function doStuff(things) {
-  if (isPresent(things)) {
-    doOtherStuff(things)
-  }
-}
-{% endhighlight %}
-
-Here's some HTML:
-
-{% highlight html %}
-<div class="m0 p0 bg-blue white">
-  <h3 class="h1">Hello, world!</h3>
-</div>
-{% endhighlight %}
-
-# Headings!
-
-They're responsive, and well-proportioned (in `padding`, `line-height`, `margin`, and `font-size`).
-They also heavily rely on the awesome utility, [BASSCSS](http://www.basscss.com/).
-
-##### They draw the perfect amount of attention
-
-This allows your content to have the proper informational and contextual hierarchy. Yay.
-
-### There are lists, too
-
-  * Apples
-  * Oranges
-  * Potatoes
-  * Milk
-
-  1. Mow the lawn
-  2. Feed the dog
-  3. Dance
-
-### Images look great, too
-
-![desk](https://cloud.githubusercontent.com/assets/1424573/3378137/abac6d7c-fbe6-11e3-8e09-55745b6a8176.png)
-
-_![desk](https://cloud.githubusercontent.com/assets/1424573/3378137/abac6d7c-fbe6-11e3-8e09-55745b6a8176.png)_
+Example: _cache:website.org_
 
 
-### There are also pretty colors
+### Intext:keyword
+You can use this operator to find the pages that contain the keyword in the text inside the <body> tag 
 
-Also the result of [BASSCSS](http://www.basscss.com/), you can <span class="bg-dark-gray white">highlight</span> certain components
-of a <span class="red">post</span> <span class="mid-gray">with</span> <span class="green">CSS</span> <span class="orange">classes</span>.
+Example: _intext:python tutorial_
 
-I don't recommend using blue, though. It looks like a <span class="blue">link</span>.
+### Intitle:keyword
+It shows results of the keyword you want in the <title> tag.
 
-### Footnotes!
+Example: _easy recipe intitle:chocolate_ (it will return all 'easy recipe' results with 'chocolate' in their titles) 
 
-Markdown footnotes are supported, and they look great! Simply put e.g. `[^1]` where you want the footnote to appear,[^1] and then add
-the reference at the end of your markdown.
+### Inurl:keyword
+Not very difficult to guess, right? It displays pages with the specific keyword on the URL. 
 
-### Stylish blockquotes included
+Example: _site:wikipedia.com inurl:Brazil_ (return all pages in Wikipedia with 'Brazil' in the URL) 
 
-You can use the markdown quote syntax, `>` for simple quotes.
+### Site:loreipsum.com + keyword
+This is one of the most used operators. We can use it to query pages of a specific domain. Without the keyword, you can check all pages indexed by Google. 
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis porta mauris.
+With a keyword, Google will return all pages from that site with that keyword. 
 
-However, you need to inject html if you'd like a citation footer. I will be working on a way to
-hopefully sidestep this inconvenience.
+Example: _site:thinkgeek.com_ (all pages indexed by Google)
 
-<blockquote>
-  <p>
-    Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
-  </p>
-  <footer><cite title="Antoine de Saint-Exupéry">Antoine de Saint-Exupéry</cite></footer>
-</blockquote>
+_site:thinkgeek.com nerf guns_ (all pages with the keyword "nerf guns") 
 
-### There's more being added all the time
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to request,
-or add, features.
 
-Happy writing.
+## Advanced Google Search Commands 🦉
 
----
+### AND
+Using this command, Google search result will show pages that meet all the search queries criteria. 
 
-[^1]: Important information that may distract from the main text can go in footnotes.
+Example: _site:linkedin.com AND intitle:seo AND intext:link building,_
+
+### OR
+The OR command is used to find the search results that meet one of the search query criteria defined. 
+
+Example:_allintext:"hitchhikers guide" OR allinurl:scifi books._ (the results will either have 'hitchhikers guide' in the body text or scifi and book in the URL)
+
+
+### -keyword (minus)
+Using a minus (-) Google will filter and exclude all the results that have that keyword or page.
+
+Example: _best keyword tool -semrush.com_
+
+### +keyword (plus)
+You can use a plus (+) to add keywords that you want to be in the search results.
+
+Example:_growth + SEO_
+
+### *
+You can use an asterisk (*) instead of any unknown or “wildcard” term. 
+
+Example: _“senior digital *”_
+
+### Related:website.com
+You can use this command when you want to find the websites related to another page. 
+
+Example: _related:website.com_
+
+### "Search term here"
+When using quotation marks with a search term, Google will return the results with that exact phrase. Very useful when searching for names, products, etc.
+
+Example:  "_The Universe in a Nutshell"_
+
+
+
+## Time to mix them up 🍹
+
+Using more than one command or operator you can have more detailed research, and the results will be more on the track of what you want. Few things you can do mixing operators and commands are: 
+
+- Find repeated content on a domain
+
+Let's say your are performing an SEO audit for a client and you want to know how many pages it has on Google with the keyword "audit tools". This is one strategy to avoid keyword cannibalization and repeated contet. You can simply type on Google: 
+
+{% highlight google %}
+site:loremipsum.com AND allintitile:audit tools
+{% endhighlight  %}
+
+You can also use other operators such as "intext:audit tools" or "allinurl:audit tools", that's up to you! 
+
+- Find contacs on LinkedIn using peripheral information 
+
+By peripheral, I mean non-direct information. For example, you'd like to find people who work in Marketing at Google in LinkedIn's public domain (/in). You could go for: 
+
+{% highlight google %}
+"* marketing * at google" inurl:linkedin.com/in site:linkedin.com
+{% endhighlight  %}
+
+- Find opportunities for guest posting for link building  
+
+If you are looking for news oppotunities to create content for others and build a link building strategy from there, you can try this queries on Google:   
+
+{% highlight google %}
+ [your key phrase] blogs inurl:guest-post
+ {% endhighlight  %}
+ 
+Then you can start prospecting better :) 
+
+## Conclusion 🤞
+As you can see, Google not only is the best search engine machine in the whole wide world web, but is also an information plataform on its own, and it allows you to navigate better between its search results. 
+
+Commands and operators are time saving, practical and a very good way to find more relevant results. So, next time you go to the big G, remember those 'cause they can save you a lifetime! 
+
+See ya!
