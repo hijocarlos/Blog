@@ -3,8 +3,8 @@ title:       Carlos'Blog
 email:       carlosfilho92@gmail.com
 author:      Carlos Filho
 description: "This is my blog about generalities of the digital and marketing worlds"
-baseurl:     "/blog"
-url:         ""
+baseurl:     ""
+url:         "hijocarlos.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
