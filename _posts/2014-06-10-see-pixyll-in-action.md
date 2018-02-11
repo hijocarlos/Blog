@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 'A Pocket Guide to Google Search Operators '
-date: {}
-summary: >-
-  See what the different elements looks like. Your markdown has never looked
+date: '2014-04-18 11:30:00 +0800'
+summary:   See what the different elements looks like. Your markdown has never looked
   better. I promise.
 categories: jekyll pixyll
 published: true
