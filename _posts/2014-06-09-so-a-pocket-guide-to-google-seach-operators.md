@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      A Pocket Guide to Google Search Operator 
-date:       2014-06-09 12:32:18
-summary:    Transform your plain text into static websites and blogs. Simple, static, and blog-aware.
+title:      A Pocket Guide to Google Search Operators 
+date:       2017-10-09 12:32:18
+summary:    'Tricks you can't forget when seaching on the big G'
 categories: jekyll pixyll
 ---
 
