@@ -1,11 +1,9 @@
 ---
 layout: post
 title: 'A/B testing with Google Analytics '
-date: '2014-04-18 11:30:00 +0800'
-summary: >-
-  See what the different elements looks like. Your markdown has never looked
-  better. I promise.
-categories: jekyll pixyll
+date: '2017-09-15 11:30:00 +0800'
+summary: Setting up a plsit test in 5 minutes
+categories: analytics
 published: true
 ---
 I like a quote from an article by Amy Gallo in HBR, where she interviewed a guy called [Kaiser Fung](http://www.kaiserfung.com/) and he defines, simply, what is the nature of an A/B test. When asked about the test, Fung says it clearly:
