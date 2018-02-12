@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'A Pocket Guide to Google Search Operators '
+title: 'A/B testing with Google Analytics '
 date: '2014-04-18 11:30:00 +0800'
 summary: >-
   See what the different elements looks like. Your markdown has never looked
