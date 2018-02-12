@@ -1,5 +1,8 @@
 ---
 published: true
+layout: post
+date: '2017-12-04 09:30:00 +0800'
+summary: A few tricks to used when searching on the big G
 ---
 
 Google Search Operators are part of this huge environment of web tools available to us. They are used for a multitude of things on Google, from **SEO** to **prospecting** - and that's why they are so unique.
