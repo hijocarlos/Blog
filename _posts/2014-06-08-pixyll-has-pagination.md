@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'A/B testing with Google Analytics '
-date: {}
+date: '2017-01-20 08:32:18 -0700'
 summary: This is an empty post to illustrate the pagination component with Pixyll.
 categories: jekyll pixyll
 published: true
