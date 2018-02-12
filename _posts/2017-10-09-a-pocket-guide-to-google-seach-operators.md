@@ -1,9 +1,5 @@
 ---
-layout:     post
-title:      A Pocket Guide to Google Search Operators 
-date:       2017-10-09 12:32:18
-summary:    'Tricks you can't forget when seaching on the big G'
-categories: jekyll pixyll
+published: false
 ---
 
 Google Search Operators are part of this huge environment of web tools available to us. They are used for a multitude of things on Google, from **SEO** to **prospecting** - and that's why they are so unique.
