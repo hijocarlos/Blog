@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 4 actions = +500% Organic Growth
-date: {}
+date: 2017-01-20 08:32:18 -0700
 summary: >-
   Pixyll is a simple, beautiful theme for Jekyll that emphasizes content rather
   than aesthetic fluff.
