@@ -2,145 +2,55 @@
 layout: post
 title: 'A Pocket Guide to Google Search Operators '
 date: '2014-04-18 11:30:00 +0800'
-summary:   See what the different elements looks like. Your markdown has never looked
+summary: >-
+  See what the different elements looks like. Your markdown has never looked
   better. I promise.
 categories: jekyll pixyll
 published: true
 ---
+I like a quote from an article by Amy Gallo in HBR, where she interviewed a guy called [Kaiser Fung](http://www.kaiserfung.com/) and he defines, simply, what is the nature of an A/B test. When asked about the test, Fung says it clearly:
 
-Google Search Operators are part of this huge environment of web tools available to us. They are used for a multitude of things on Google, from **SEO** to **prospecting** - and that's why they are so unique.
+> _"A/B testing can be considered the most basic kind of randomized controlled experiment"_
+
+
+By randomized, he is refering to the fact that you can experiment with multiple features on an A/B test. You could change a title, you could change an image, you could change everything - and that's way is randomized. 
+
+And it's controlled, because you do need a control group to run the test and compare with the results later. If you want to know a little more, make sure you read the whole article [here](https://hbr.org/2017/06/a-refresher-on-ab-testing).
+
+In this little tutorial, I'm gonna show you how simple is to set this sort of test using the number 01 analytics tool for web: **Google Analytics.**
+
+
+## Set the test in 3 little steps:
+
+1. Create Experiment
+2. Set the Orignal and the Variations URLs
+3. Insert the Code 
+
+My test here is based on the classic blue vs. red buttom battle. 
+
+I want to know which one will increase our CTR. So I already have 2 urls with the different buttom colors: the blue one is the original with the url **/produtos/adk/** and I created a copy with a different buttom color on **/produtos/adk-2/**. Let's do this. 
+
+## Step 1: Create Experiment 
+Over to your Analytics Dashboard, go to **Behaviours** and then **Experiments** on your sidebar. This is also how you gonna get to your experiments later, when you set'em up. 
+
+Now, go to **Create Experiment** and complete informations like name and the goal of the test. If you haven't created a goal yeat, you'll be able to create one just right up. 
+
+## Step 2: Set the Original and the Variations URLs 
+This is simple: you'll only need to **copy and paste the URLs** and set how many variations you have. I only had one, because I only wanted to analyze the effectiveness of the buttom color. Peharps I could create anoter variation with no buttom at all, but with another CTA? That's something to think about. 
+
+
+## Step 3: Time to Insert the Codes
+Make sure all the pages have the basic Analytics code running, first. After that, select **"Manually insert the code"** to copy the code and install the experiment code snippet right after the <head> tag of your **Original Page**. 
   
+  
+After you've saved, click on **Next** and GA will check if everything is in place. All you need now is to **Start Experiment**and GA will route visitors to the varitions and record the effectiveness.:+1:
+<br>
+<br>
+<br>
+I made a little video:
 
-The central role of search operators is to narrow down the result set. Using them, you will be able to find more refined results on SERPS, which allows you to go straight to the point faster. Usually, they are formatted using symbols (like '+', or '-'), words, or combinations of both. You can also use more than one operator/command on a search (that will enrich your results a lot).    
-
-![google search operators](https://image.ibb.co/bup1jR/search_operators.png)
-
-I gathered a few (I think there's more) commands and operators to facilitate my job remembering them and decided to share here. So, let's dive in: 
-
-## Advanced Google Search Operators 🦅 
-
-### Allintext:keywords
-This operator will return with results that have all your keywords in their <body> tag 
-
-Example: _allintext: best web tips_
-
-### Allintitle:keywords
-This operator will return all results with the terms you choose in their title tags. 
-
-Example: _allintitle: organic growth strategies_ (the results will have "organic," "growth" and "strategies" in the title) 
-
-### Allinurl:keywords
-The same as in allintitle: it will display all results with the keywords in the URL 
-
-Example: _allinurl:google search operators_
-
-### Cache:
-You can use this command when you want to find the latest cache of a specified page.
-
-Example: _cache:website.org_
-
-
-### Intext:keyword
-You can use this operator to find the pages that contain the keyword in the text inside the <body> tag 
-
-Example: _intext:python tutorial_
-
-### Intitle:keyword
-It shows results of the keyword you want in the <title> tag.
-
-Example: _easy recipe intitle:chocolate_ (it will return all 'easy recipe' results with 'chocolate' in their titles) 
-
-### Inurl:keyword
-Not very difficult to guess, right? It displays pages with the specific keyword on the URL. 
-
-Example: _site:wikipedia.com inurl:Brazil_ (return all pages in Wikipedia with 'Brazil' in the URL) 
-
-### Site:loreipsum.com + keyword
-This is one of the most used operators. We can use it to query pages of a specific domain. Without the keyword, you can check all pages indexed by Google. 
-
-With a keyword, Google will return all pages from that site with that keyword. 
-
-Example: _site:thinkgeek.com_ (all pages indexed by Google)
-
-_site:thinkgeek.com nerf guns_ (all pages with the keyword "nerf guns") 
-
-
-
-## Advanced Google Search Commands 🦉
-
-### AND
-Using this command, Google search result will show pages that meet all the search queries criteria. 
-
-Example: _site:linkedin.com AND intitle:seo AND intext:link building,_
-
-### OR
-The OR command is used to find the search results that meet one of the search query criteria defined. 
-
-Example:_allintext:"hitchhikers guide" OR allinurl:scifi books._ (the results will either have 'hitchhikers guide' in the body text or scifi and book in the URL)
-
-
-### -keyword (minus)
-Using a minus (-) Google will filter and exclude all the results that have that keyword or page.
-
-Example: _best keyword tool -semrush.com_
-
-### +keyword (plus)
-You can use a plus (+) to add keywords that you want to be in the search results.
-
-Example:_growth + SEO_
-
-### *
-You can use an asterisk (*) instead of any unknown or “wildcard” term. 
-
-Example: _“senior digital *”_
-
-### Related:website.com
-You can use this command when you want to find the websites related to another page. 
-
-Example: _related:website.com_
-
-### "Search term here"
-When using quotation marks with a search term, Google will return the results with that exact phrase. Very useful when searching for names, products, etc.
-
-Example:  "_The Universe in a Nutshell"_
-
-
-
-## Time to mix them up 🍹
-
-Using more than one command or operator you can have more detailed research, and the results will be more on the track of what you want. Few things you can do mixing operators and commands are: 
-
-- Find repeated content on a domain
-
-Let's say your are performing an SEO audit for a client and you want to know how many pages it has on Google with the keyword "audit tools". This is one strategy to avoid keyword cannibalization and repeated contet. You can simply type on Google: 
-
-{% highlight google %}
-site:loremipsum.com AND allintitile:audit tools
-{% endhighlight  %}
-
-You can also use other operators such as "intext:audit tools" or "allinurl:audit tools", that's up to you! 
-
-- Find contacs on LinkedIn using peripheral information 
-
-By peripheral, I mean non-direct information. For example, you'd like to find people who work in Marketing at Google in LinkedIn's public domain (/in). You could go for: 
-
-{% highlight google %}
-"* marketing * at google" inurl:linkedin.com/in site:linkedin.com
-{% endhighlight  %}
-
-- Find opportunities for guest posting for link building  
-
-If you are looking for news oppotunities to create content for others and build a link building strategy from there, you can try this queries on Google:   
-
-{% highlight google %}
- [your key phrase] blogs inurl:guest-post
- {% endhighlight  %}
- 
-Then you can start prospecting better :) 
-
-## Conclusion 🤞
-As you can see, Google not only is the best search engine machine in the whole wide world web, but is also an information plataform on its own, and it allows you to navigate better between its search results. 
-
-Commands and operators are time saving, practical and a very good way to find more relevant results. So, next time you go to the big G, remember those 'cause they can save you a lifetime! 
-
+<center>Literally, less than 5 minutes</center> 
+<br> <br> <br> 
+Well, this is it for now.<br> <br> <br> 
+Peharps on the next post I will show the results and data analysis?<br> 
 See ya!
