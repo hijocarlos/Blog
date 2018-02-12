@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 'A/B testing with Google Analytics '
-date: '2017-01-20 08:32:18 -0700'
+date: 2017-01-20 08:32:18 -0700
 summary: This is an empty post to illustrate the pagination component with Pixyll.
-categories: jekyll pixyll
 published: true
 ---
 I like a quote from an article by Amy Gallo in HBR, where she interviewed a guy called [Kaiser Fung](http://www.kaiserfung.com/) and he defines, simply, what is the nature of an A/B test. When asked about the test, Fung says it clearly:
