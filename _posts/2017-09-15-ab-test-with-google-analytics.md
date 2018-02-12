@@ -2,7 +2,7 @@
 layout: post
 title: 'A/B testing with Google Analytics '
 date: '2017-09-15 11:30:00 +0800'
-summary: Setting up a plsit test in 5 minutes
+summary: Setting up a split test in less than 5 minutes
 categories: analytics
 published: true
 ---
