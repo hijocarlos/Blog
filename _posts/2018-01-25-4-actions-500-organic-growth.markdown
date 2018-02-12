@@ -2,7 +2,7 @@
 layout: post
 title: 4 actions = +500% Organic Growth
 date: 2018-01-25 08:32:18 -0700
-summary: 4 tricks that ended up helping multiple growth 5x
+summary: 4 tricks that ended up helping multiply growth 5x
 categories: seo
 published: true
 ---
